@@ -105,12 +105,12 @@ document.addEventListener('keydown', (event) => {
                 nextMoveRight.appendChild(player);
                 currentPosition = nextMoveRight;
                 setTimeout(function () {
-                  var winner = prompt("You won!, please enter your preferred name.", "John Doe");
+                    winner = alert("You won!");
                 }, 500);
             }
             break;
     }
-    document.getElementById("msg").innerHTML = "Wonderful" + winner + "has won!";
+    document.getElementById("msg").innerHTML = +winner + " has won!";
     document.getElementById("player").style.top = boxTop + "px";
     document.getElementById("player").style.left = boxLeft + "px";
 })

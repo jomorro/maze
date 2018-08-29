@@ -51,7 +51,7 @@ main {
 #start {
     height: 3vh;
     width: 3vw;
-    background: green;
+    background:grey;
 }
 
 .blankSpace {
@@ -63,5 +63,5 @@ main {
 #finish {
     height: 3vh;
     width: 3vw;
-    background: red;
+    background:green;
 }
