@@ -1,0 +1,67 @@
+h1 {
+    text-align: center;
+    font-size: 2em;
+    color: gold;
+    font-family: Arial, sans-serif;
+    font-weight: bolder;
+    background: purple;
+    margin-left: auto;
+    margin-right: auto;
+    padding: .3em;
+    border-radius: 1em;
+}
+
+h3 {
+    font-size: 2em;
+    color: gold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    background: purple;
+    border-radius: 1em;
+    text-align: center;
+}
+
+#player {
+    width: 3vw;
+    height: 3vh;
+    background: none;
+    position: absolute;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.mazeRow {
+    display: flex;
+    flex-direction: row;
+}
+
+.borderWall {
+    background: gold;
+    height: 3vh;
+    width: 3vw;
+}
+
+#start {
+    height: 3vh;
+    width: 3vw;
+    background: green;
+}
+
+.blankSpace {
+    height: 3vh;
+    width: 3vw;
+    background: purple;
+}
+
+#finish {
+    height: 3vh;
+    width: 3vw;
+    background: red;
+}
