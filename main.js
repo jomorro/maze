@@ -110,7 +110,7 @@ document.addEventListener('keydown', (event) => {
             }
             break;
     }
-    document.getElementById("msg").innerHTML = +winner + "has won!";
+    document.getElementById("msg").innerHTML = + winner + "has won!";
     document.getElementById("player").style.top = boxTop + "px";
     document.getElementById("player").style.left = boxLeft + "px";
 })
